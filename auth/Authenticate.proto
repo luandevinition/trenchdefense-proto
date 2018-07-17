@@ -1,0 +1,6 @@
+package App.Proto;
+
+message Authenticate {
+    required string access_token = 1;
+    required uint32 expired_at = 2;
+}
