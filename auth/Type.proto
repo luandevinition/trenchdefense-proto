@@ -1,0 +1,10 @@
+package App.Proto;
+
+message Type {
+    enum AuthenticateType {
+        Google = 1;
+        Facebook = 2;
+        Guest = 3;
+    }
+    required AuthenticateType type = 1;
+}
