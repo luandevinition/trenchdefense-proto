@@ -1,0 +1,8 @@
+package App.Proto;
+
+import "auth/Type.proto";
+
+message LinkSocialParameter {
+    optional string access_code = 1;
+    required Type social_type = 2;
+}

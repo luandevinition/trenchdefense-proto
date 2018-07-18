@@ -1,0 +1,10 @@
+package App.Proto;
+
+import "Error.proto";
+import "user/User.proto";
+
+message LinkSocialResult {
+    required bool isSuccess = 1;
+    optional User user = 2;
+    optional Error error = 3;
+}
