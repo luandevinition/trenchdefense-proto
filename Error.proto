@@ -1,0 +1,7 @@
+package App.Proto;
+
+message Error {
+    required uint32 code = 1;
+    required string message = 2;
+    required string id = 3;
+}
