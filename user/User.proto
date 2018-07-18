@@ -1,0 +1,7 @@
+package App.Proto;
+
+message User {
+    required string name = 1;
+    optional string imei = 2;
+    optional string google_id = 3;
+}
