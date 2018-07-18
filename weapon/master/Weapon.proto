@@ -1,0 +1,8 @@
+package App.Proto;
+
+message Weapon {
+    required uint32 id = 1;
+    required uint32 damage = 2;
+    required uint32 reloadSpeed = 3;
+    required uint32 shotSpeed = 4;
+}
