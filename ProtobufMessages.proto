@@ -1,0 +1,8 @@
+import "ProtobufMessage.proto";
+
+package App.Proto;
+
+message ProtobufMessages {
+  repeated ProtobufMessage messages = 1;
+  required int32 count = 2;
+}
