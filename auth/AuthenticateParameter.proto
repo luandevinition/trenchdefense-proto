@@ -1,9 +1,0 @@
-package App.Proto;
-
-import "auth/Type.proto";
-
-message AuthenticateParameter {
-    optional string access_code = 1;
-    optional string imei = 2;
-    required Type login_type = 3;
-}
