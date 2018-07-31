@@ -1,0 +1,10 @@
+package App.Proto;
+
+message Zombie {
+    required uint32 id = 1;
+    required string name = 2;
+    required uint32 damage = 3;
+    required uint32 hp = 4;
+    required uint32 speed = 5;
+    required uint32 armor = 6;
+}
