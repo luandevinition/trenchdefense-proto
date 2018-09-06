@@ -1,0 +1,6 @@
+package App.Proto;
+import "character/Character.proto";
+
+message HavingCharacter {
+    repeated Character character = 1;
+}
