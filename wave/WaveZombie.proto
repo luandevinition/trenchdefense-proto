@@ -1,0 +1,6 @@
+package App.Proto;
+import "zombie/Zombie.proto";
+message WaveZombie {
+    repeated Zombie zombie = 1;
+    required uint32 quantity = 2;
+}

@@ -1,0 +1,7 @@
+package App.Proto;
+import "wave/WaveZombie.proto";
+message Wave {
+    required string name = 1;
+    repeated WaveZombie waveZombies = 2;
+    required string resourceID = 3;
+}
