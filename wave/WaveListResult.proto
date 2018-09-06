@@ -1,0 +1,6 @@
+package App.Proto;
+import "wave/Wave.proto";
+message WaveListResult {
+    required uint32 totalPage = 1;
+    repeated Wave waves = 2;
+}
