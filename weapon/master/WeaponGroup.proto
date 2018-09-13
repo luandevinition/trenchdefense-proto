@@ -1,0 +1,7 @@
+package App.Proto;
+
+message WeaponGroup {
+    required uint32 id = 1;
+    required string name = 2;
+    required string ammoType = 3;
+}
