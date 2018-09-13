@@ -1,9 +1,11 @@
 package App.Proto;
 
+import "weapon/master/WeaponGroup.proto";
+
 message Weapon {
     required uint32 id = 1;
-    required uint32 damage = 2;
-    required uint32 reloadSpeed = 3;
-    required uint32 shotSpeed = 4;
-    required uint32 delayTime = 5;
+    required string name = 2;
+    required WeaponGroup group = 3;
+    required uint32 damage = 4;
+    required string resourceId = 5;
 }
