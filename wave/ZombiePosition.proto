@@ -1,0 +1,6 @@
+package App.Proto;
+import "wave/Position.proto";
+message ZombiePosition {
+    repeated Position position = 1;
+    required uint32 time = 2;
+}
