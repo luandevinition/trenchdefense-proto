@@ -5,5 +5,5 @@ message Wave {
     required string name = 1;
     repeated WaveZombie waveZombies = 2;
     required string resourceID = 3;
-    repeated ZombiePosition zombiePosition = 4;
+    repeated ZombiePosition zombiePositions = 4;
 }
