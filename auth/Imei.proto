@@ -1,5 +1,0 @@
-package App.Proto;
-
-message RequestAccessTokenParameter{
-    required string imei = 1;
-}
