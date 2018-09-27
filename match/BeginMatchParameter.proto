@@ -1,0 +1,4 @@
+package App.Proto;
+message BeginMatchParameter {
+    required uint32 waveID = 1;
+}
