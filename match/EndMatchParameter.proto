@@ -3,4 +3,5 @@ message EndMatchParameter {
     required uint32 dropGold = 1;
     required uint32 hp = 3;
     required uint32 waveID = 4;
+    required string matchResult = 5; //complete, failure
 }
