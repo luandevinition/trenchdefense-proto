@@ -1,0 +1,7 @@
+package App.Proto;
+import "user/User.proto";
+import "wave/Wave.proto";
+message LeaderBoard {
+    required User user = 1;
+    required Wave wave = 2;
+}
