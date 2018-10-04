@@ -1,7 +1,10 @@
 package App.Proto;
 import "weapon/master/Weapon.proto";
+import "character/Character.proto";
+
 message CharacterStatus {
     required uint32 dropGold = 1;
-    required uint32 hp = 2;
-    repeated Weapon weapons = 3;
+    required uint32 currentHp = 2;
+    required Character character = 3;
+    repeated Weapon weapons = 4;
 }
