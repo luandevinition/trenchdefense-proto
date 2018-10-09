@@ -1,0 +1,5 @@
+package App.Proto;
+message WaveItem {
+    required uint32 itemID = 1;
+    required uint32 count = 2;
+}

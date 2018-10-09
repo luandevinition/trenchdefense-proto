@@ -1,0 +1,7 @@
+package App.Proto;
+import "item/Item.proto";
+message DropItem {
+    required uint32 zombieID = 1;
+    required Item item = 2;
+    required float dropRate = 3;
+}
