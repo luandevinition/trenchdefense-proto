@@ -3,6 +3,6 @@ message Item {
     required uint32 id = 1;
     required string name = 2;
     required string type = 3;
-    required string count = 4;
+    required uint32 count = 4;
     required string resourceID = 5;
 }
